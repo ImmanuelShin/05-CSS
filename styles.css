@@ -1,9 +1,11 @@
 body {
+    color: white;
     margin: 0;
     padding: 0;
     height: 100%;
     width: 100%;
     font-family: 'Syne Mono', monospace;
+    background-color: #222222;
 }
 
 header {
@@ -15,7 +17,6 @@ header {
     justify-content: left;
     background-color: #4e4e4e;
     border-bottom: thin solid #00C896;
-
 }
 
 #logo {
@@ -39,7 +40,6 @@ nav ul li {
 }
 
 nav li a {
-    color: inherit;
     display: flex;
     width: 10vh;
     height: 100%;
@@ -47,14 +47,11 @@ nav li a {
     align-items: center;
     justify-content: center;
     text-decoration: none;
+    color: white;
 }
 
 nav ul li a:hover {
     background-color: #00C896;
-}
-
-main {
-    background-color: #222222;
 }
 
 #intro {
@@ -73,8 +70,7 @@ main {
     display: flex;
     position: relative;
     padding: 5%;
-    border: thin solid;
-    border-color: #00C896;
+    border: thin solid #00C896;
     border-radius: 20px;   
 }
 
@@ -88,9 +84,7 @@ main {
     position: relative;
     width: 300px;
     height: 300px;
-
 }
-
 
 .img_description {
     color: #331459;
@@ -127,9 +121,12 @@ main {
     padding: 50px;
     width: 420px;
     height: 400px;
-    margin: 1%;
+    margin: 5vh;
     overflow-wrap: normal;
     justify-content: center;
+    border: thin solid #00C896;
+    border-radius: 10px;
+    background-color: #4e4e4e;
 }
 
 h1 {
